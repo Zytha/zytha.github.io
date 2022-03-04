@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      @apply font-[Sen] bg-[#292C34] text-[#DCDFE4]
+    }
+
+    h1 {
+      @apply text-center text-3xl font-black my-[2.5rem]
+    }
+
+    h2 {
+      @apply text-left text-2xl font-bold my-[1rem]
+    }
+
+    p {
+      @apply text-left text-xl font-thin my-[1rem]
+    }
+
+    article {
+      @apply mx-[2.5rem] md:mx-[5rem] lg:mx-[10rem] xl:mx-[15rem] 2xl:mx-[30rem]
+    }
+
+		.work-div {
+			@apply grid grid-rows-2 p-[2.5rem] pb-[0.5rem]
+		}
+}
