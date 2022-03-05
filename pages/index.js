@@ -1,5 +1,8 @@
 import Image from 'next/image';
-import Social from '../components/social';
+
+import Social from '../components/Social';
+import Collab from '../components/Collab';
+import CollabBottom from '../components/CollabBottom';
 
 import Stob from '../public/images/stob.png';
 import Github from '../public/images/github.png';
@@ -25,33 +28,9 @@ export default function Home() {
                 </div>
             </article>
             <article className="grid grid-cols-1 lg:grid-cols-2">
-                <div className="work-div">
-                    <div className="flex justify-center">
-                        <Image src={Stob} className="aspect-video object-cover rounded-xl" alt="Stob"/>
-                    </div>
-                    <div>
-                        <h2 className="text-center">Stob</h2>
-                        <p className="text-center">A multi-purpose Discord bot with 25+ functions, 60+ users and user friendly control panel.</p>
-                    </div>
-                </div>
-                <div className="work-div">
-                    <div className="flex justify-center">
-                        <Image src={PlaceHolder} className="aspect-video object-cover rounded-xl" alt="Coming Soon"/>
-                    </div>
-                    <div>
-                        <h2 className="text-center">Coming Soon</h2>
-                        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt.</p>
-                    </div>
-                </div>
-                <div className="work-div pb-[0rem] lg:mb-[-1.5rem] 2xl:mb-[-3rem] 2xl:mt-[-5rem]  lg:mt-[-2.5rem]">
-                    <div className="flex justify-center">
-                        <Image src={PlaceHolder} className="aspect-video object-cover rounded-xl" alt="Coming Soon"/>
-                    </div>
-                    <div>
-                        <h2 className="text-center">Coming Soon</h2>
-                        <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt.</p>
-                    </div>
-                </div>
+                <Collab src={Stob} alt="Stob" title="Stob" content="A multi-purpose Discord bot with 25+ functions, 60+ users and user friendly control panel."/>
+                <Collab src={PlaceHolder} alt="Coming Soon" title="Coming Soon" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt."/>
+                <CollabBottom src={PlaceHolder} alt="Coming Soon" title="Coming Soon" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt."/>
             </article>
             <article>
                 <div className="relative flex py-5 items-center">
