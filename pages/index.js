@@ -1,4 +1,5 @@
-import Image from 'next/image'
+import Image from 'next/image';
+import Social from '../components/social';
 
 import Stob from '../public/images/stob.png';
 import Github from '../public/images/github.png';
@@ -16,7 +17,7 @@ export default function Home() {
                     <div className="flex-grow border-t border-gray-400"></div>
                 </div>
                 <h2>📚 About me</h2>
-                <p>Hello there! Welcome to my portfolio, I'm Zytha. A passionate front-end web developer from Malaysia. I have experience in developing awesome static websites with TailwindCSS and Next.js. I'm also obsessed with some general-purpose programming languages like Ruby and Python. I learn most of my programming skills from the internet.</p>
+                <p>Hello there! Welcome to my homepage, I'm Zytha. A passionate front-end web developer from Malaysia. I have experience in developing awesome static websites with TailwindCSS and Next.js. I'm also obsessed with some general-purpose programming languages like Ruby and Python. I learn most of my programming skills from the internet.</p>
                 <div className="relative flex py-5 items-center">
                     <div className="flex-grow border-t border-gray-400"></div>
                     <span className="flex-shrink mx-4 text-gray-400"> Collabs </span>
@@ -61,12 +62,8 @@ export default function Home() {
             </article>
             <article>
                 <div className="flex justify-center items-center content-center">
-                    <a href="https://github.com/zytha" target="_blank" rel="noreferrer" className="w-[2.0rem] mb-[1.5rem] mx-[0.5rem]">
-                        <Image src={Github} alt="Github" height={32} width={32}/>
-                    </a>
-                    <a href="https://twitter.com/xXyangXx_" target="_blank" rel="noreferrer" className="w-[2.0rem] mb-[1.5rem] mx-[0.5rem]">
-                        <Image src={Twitter} alt="Twitter" height={32} width={32}/>
-                    </a>
+                    <Social href="https://github.com/zytha" src={Github} alt="Github"/>
+                    <Social href="https://twitter.com/xXyangXx_" src={Twitter} alt="Twitter"/>
                </div>
             </article>
         </>
