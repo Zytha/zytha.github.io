@@ -55,7 +55,7 @@ export default function Home() {
             <article>
                 <div className="relative flex py-5 items-center">
                     <div className="flex-grow border-t border-gray-400"></div>
-                    <span className="flex-shrink mx-4 text-gray-400"> The End </span>
+                    <span className="flex-shrink mx-4 text-gray-400"> Socials </span>
                     <div className="flex-grow border-t border-gray-400"></div>
                 </div>
             </article>
