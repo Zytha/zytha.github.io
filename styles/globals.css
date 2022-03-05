@@ -28,4 +28,8 @@
 		.work-div {
 			@apply grid grid-rows-2 p-[2.5rem] pb-[0.5rem]
 		}
+
+    ::-webkit-scrollbar {
+      @apply hidden
+    }
 }
