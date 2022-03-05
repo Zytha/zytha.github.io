@@ -18,7 +18,7 @@ export default function Home() {
                 <meta name="description" content="Hello there! Welcome to my homepage, I'm Zytha. A passionate front-end web developer from Malaysia. I have experience in developing awesome static websites with TailwindCSS and Next.js."/>
                 <meta property="og:type" content="Homepage"/>
                 <meta property="og:url" content="https://www.zytha.ml"/>
-                <meta name="theme-color" content="#FF0000"/>
+                <meta name="theme-color" content="#292C34"/>
             </Head>
 
             <article>
