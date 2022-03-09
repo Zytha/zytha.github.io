@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Head from 'next/head';
+import Head  from 'next/head';
 import { motion } from 'framer-motion';
 
 import Social from '../components/Social';
@@ -16,6 +16,8 @@ export default function Home() {
         <>
             <Head>
                 <title>Zytha's Homepage</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+                <meta name="keywords" content="Zytha, Github, React, JavaScript, Front-End Developer, Next, Yang Zheng Yong"/>
                 <meta name="description" content="Hello there! Welcome to my homepage, I'm Zytha. A passionate front-end web developer from Malaysia. I have experience in developing awesome static websites with TailwindCSS and Next.js."/>
                 <meta property="og:type" content="Homepage"/>
                 <meta property="og:url" content="https://www.zytha.ml"/>
