@@ -5,7 +5,7 @@ export default function Collab(props){
         <>
           <div className="work-div">
             <div className="flex justify-center">
-              <Image src={props.src} className="aspect-video object-cover rounded-xl" alt={props.alt}/>
+              <Image src={props.src} height={900} width={1600} className="object-cover rounded-xl" alt={props.alt}/>
             </div>
             <div>
               <h2 className="text-center">{props.title}</h2>
