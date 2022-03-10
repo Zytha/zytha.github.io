@@ -6,4 +6,4 @@
 - [Tailwind](https://tailwindcss.com)
 
 ## Hosting Service
-[Vercel](https://vercel.app)
+- [Vercel](https://vercel.app)
