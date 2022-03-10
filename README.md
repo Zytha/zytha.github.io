@@ -2,4 +2,4 @@
 Zytha's Personal Homepage.
 
 ## Framework Used
-(lol)[a]
+[React](https://reactjs.org) [Next](https://nextjs.org) [Tailwind](https://tailwindcss.com)
