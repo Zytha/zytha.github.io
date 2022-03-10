@@ -1,6 +1,4 @@
-# www.zytha.ml
-Zytha's Personal Homepage.
-
+# Zytha's Homepage
 ## Framework Used
 - [React](https://reactjs.org) 
 - [Next](https://nextjs.org) 
