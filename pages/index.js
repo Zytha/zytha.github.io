@@ -7,6 +7,7 @@ import Collab from '../components/Collab';
 import CollabBottom from '../components/CollabBottom';
 
 import Stob from '../public/images/stob.png';
+import Email from '../public/images/email.png';
 import Github from '../public/images/github.png';
 import Twitter from '../public/images/twitter.png';
 import PlaceHolder from '../public/images/invalid.png';
@@ -57,6 +58,7 @@ export default function Home() {
                 <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1, delay: 1.5 }} className="flex justify-center items-center content-center">
                     <Social href="https://github.com/zytha" src={Github} alt="Github"/>
                     <Social href="https://twitter.com/xXyangXx_" src={Twitter} alt="Twitter"/>
+                    <Social href="mailto: yang@zytha.ml" src={Email} alt="Email"/>
                </motion.div>
             </article>
         </>
