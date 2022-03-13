@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Head  from 'next/head';
 import { motion } from 'framer-motion';
 
@@ -43,19 +42,25 @@ export default function Home() {
                 </motion.div>
             </article>
             <motion.article className="grid grid-cols-1 lg:grid-cols-2" initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 1 }}>
-                <Collab src={Stob} alt="Stob" title="Stob" content="A multi-purpose Discord bot with 25+ functions, 60+ users and user friendly control panel."/>
-                <Collab src={PlaceHolder} alt="Coming Soon" title="Coming Soon" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt."/>
-                <CollabBottom src={PlaceHolder} alt="Coming Soon" title="Coming Soon" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt."/>
+                <motion.a href="http://bill-zhanxg.com/" target="_blank" initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 1.50 }}>
+                    <Collab src={Stob} alt="Stob" title="Stob" content="A multi-purpose Discord bot with 25+ functions, 60+ users and user friendly control panel."/>
+                </motion.a>
+                <motion.div initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 2 }}>
+                    <Collab src={PlaceHolder} alt="Coming Soon" title="Coming Soon" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt."/>
+                </motion.div>
+                <motion.div initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 2.50 }}>
+                    <CollabBottom src={PlaceHolder} alt="Coming Soon" title="Coming Soon" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus rhoncus magna nec maximus tincidunt."/>
+                </motion.div>
             </motion.article>
             <article>
-                <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1, delay: 1.25 }} className="relative flex py-5 items-center">
+                <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1, delay: 2.75 }} className="relative flex py-5 items-center">
                     <div className="flex-grow border-t border-gray-400"></div>
                     <span className="flex-shrink mx-4 text-gray-400"> Socials </span>
                     <div className="flex-grow border-t border-gray-400"></div>
                 </motion.div>
             </article>
             <article>
-                <motion.div initial={{ scale: 0, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 1, delay: 1.5 }} className="flex justify-center items-center content-center">
+                <motion.div initial={{ y: 100, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, delay: 3.0 }} className="flex justify-center items-center content-center">
                     <Social href="https://github.com/zytha" src={Github} alt="Github"/>
                     <Social href="https://twitter.com/xXyangXx_" src={Twitter} alt="Twitter"/>
                     <Social href="mailto: yang@zytha.ml" src={Email} alt="Email"/>
