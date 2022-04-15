@@ -6,8 +6,8 @@ Hello there! Welcome to my homepage, I'm Zytha. A passionate front-end web devel
 Click [Here](https://www.zytha.ml) to Visit the Website.
 
 ## Framework/ Dependency Used
+- [Vite.js](https://vitejs.dev/)
 - [React.js](https://reactjs.org)
-- [React-Router](https://reactrouter.com/)
 - [Framer-Motion](https://framer.com/motion)
 - [TailwindCSS](https://tailwindcss.com)
 - [PostCSS](https://postcss.org/)
