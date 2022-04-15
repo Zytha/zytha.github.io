@@ -1,2 +1,0 @@
-# Homepage
-https://zytha.ml/
