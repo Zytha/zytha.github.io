@@ -8,9 +8,9 @@ import Footer from './components/Footer';
 import Spliter from './components/Spliter';
 
 // Images
-import stob from './images/stob.png';
-import invalid from './images/invalid.png';
-import notex from './images/notex.png';
+import stob from './images/stob.webp';
+import invalid from './images/invalid.webp';
+import notex from './images/notex.webp';
 
 export default function Home() {
     return (
