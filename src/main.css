@@ -21,7 +21,7 @@
       @apply text-left text-xl font-thin my-[1rem]
     }
 
-    article {
+    .wrapper {
       @apply mx-[2.5rem] md:mx-[5rem] lg:mx-[10rem] xl:mx-[15rem] 2xl:mx-[30rem]
     }
 
