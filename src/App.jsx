@@ -21,7 +21,7 @@ export default function Home() {
             { /* About */ }
             <motion.div className='wrapper' initial={{ x:-50, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1 }}>
                 <h2>📚 About me</h2>
-                <p>Hello there! Welcome to my homepage, I'm Zytha. A passionate front-end web developer from Malaysia. I have experience in developing awesome static websites with TailwindCSS and React.</p>
+                <p>Hello there! Welcome to my homepage, I'm reactwindd. A passionate front-end web developer from Malaysia. I make websites 👍. Do you like Pokemon? I do :)</p>
             </motion.div>
 
             <Spliter text='Collabs'/>
