@@ -31,7 +31,7 @@ export default function Home() {
                 <motion.a href='http://bill-zhanxg.com/' target='_blank' initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 1.50 }}>
                     <Collab src={stob} alt='Stob' title='Stob' content='A multi-purpose Discord bot with 25+ functions, 60+ users and user friendly control panel.'/>
                 </motion.a>
-                <motion.a href='https://site.notexmc.tk/' target='_blank' initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 2 }}>
+                <motion.a href='https://notexmc.vercel.app' target='_blank' initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 2 }}>
                     <Collab src={notex} alt='Notex' title='NotexMC' content='Notex Network is an unique and fun to play Minecraft Bedrock Edition PvP Server.'/>
                 </motion.a>
                 <motion.div initial={{ y: 50, opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1, delay: 2.50 }}>
