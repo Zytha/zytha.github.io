@@ -12,7 +12,7 @@ export default function Footer() {
                 <motion.a  href='https://github.com/zytha' target='_blank' rel='noreferrer' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='w-[2.0rem] mb-[1.5rem] mx-[0.5rem]'>
                     <img src={ github } alt='github' className='h-[32px] w-[32px]'/>
                 </motion.a>
-                <motion.a href='https://twitter.com/xXyangXx_' target='_blank' rel='noreferrer' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='w-[2.0rem] mb-[1.5rem] mx-[0.5rem]'>
+                <motion.a href='https://twitter.com/reactwindd' target='_blank' rel='noreferrer' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='w-[2.0rem] mb-[1.5rem] mx-[0.5rem]'>
                     <img src={ twitter } alt='twitter' className='h-[32px] w-[32px]'/>
                 </motion.a>
                 <motion.a href='mailto: yang@zytha.ml' target='_blank' rel='noreferrer' whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} className='w-[2.0rem] mb-[1.5rem] mx-[0.5rem]'>
